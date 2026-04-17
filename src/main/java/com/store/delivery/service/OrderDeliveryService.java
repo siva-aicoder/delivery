@@ -30,7 +30,7 @@ public class OrderDeliveryService {
                     order.setDeliveryStoreName(DeliveryServiceConstants.HYDERABAD_STORE_NAME);
                 }
             }else{
-                order.setDeliveryStoreName(DeliveryServiceConstants.UNDETERMINED_STORE_NAME);
+                order.setDeliveryStoreName(DeliveryServiceConstants.UNSCHEDULED_STORE_NAME);
             }
 
 
@@ -42,7 +42,7 @@ public class OrderDeliveryService {
 
     public List<OrderDetails> deliveryUndeterminedStoreMapping(List<OrderDetails> orderDetails){
         orderDetails.forEach(order ->{
-            if(order.getDeliveryStoreName().equals(DeliveryServiceConstants.UNDETERMINED_STORE_NAME)){
+            if(order.getDeliveryStoreName().equals(DeliveryServiceConstants.UNSCHEDULED_STORE_NAME)){
                 order.setDeliveryStoreName(DeliveryServiceConstants.CHENNAI_STORE_NAME);
             }
         });
