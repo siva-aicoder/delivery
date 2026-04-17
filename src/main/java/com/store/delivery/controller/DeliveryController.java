@@ -35,10 +35,10 @@ public class DeliveryController {
         return new ResponseEntity<>(orderDetails, HttpStatus.ACCEPTED);
     }
 
-    @GetMapping("/orderDeliveryMapping/undetermineStore")
-    public ResponseEntity<List<OrderDetails>> orderDeliveryMappingUndeterminedStore() {
+    @GetMapping("/orderDeliveryMapping/unscheduledStore")
+    public ResponseEntity<List<OrderDetails>> orderDeliveryMappingUnscheduledStore() {
 
-        List<OrderDetails> deliveryMappedOrders = orderDeliveryService.deliveryUndeterminedStoreMapping(orderDetails);
+        List<OrderDetails> deliveryMappedOrders = orderDeliveryService.deliveryUnscheduledStoreMapping(orderDetails);
 
         return new ResponseEntity<>(orderDetails, HttpStatus.ACCEPTED);
     }

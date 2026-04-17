@@ -40,7 +40,7 @@ public class OrderDeliveryService {
 
     }
 
-    public List<OrderDetails> deliveryUndeterminedStoreMapping(List<OrderDetails> orderDetails){
+    public List<OrderDetails> deliveryUnscheduledStoreMapping(List<OrderDetails> orderDetails){
         orderDetails.forEach(order ->{
             if(order.getDeliveryStoreName().equals(DeliveryServiceConstants.UNSCHEDULED_STORE_NAME)){
                 order.setDeliveryStoreName(DeliveryServiceConstants.CHENNAI_STORE_NAME);
