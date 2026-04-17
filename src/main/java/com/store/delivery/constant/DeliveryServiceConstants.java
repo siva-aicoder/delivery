@@ -11,7 +11,7 @@ public class DeliveryServiceConstants {
     public static final String MAPPING_OPENING_TIME = "08:00:00";
     public static final String MAPPING_CLOSING_TIME = "18:00:00";
     public static final String DATE_TIME_FORMATTER = "HH:mm:ss";
-    public static final String UNDETERMINED_STORE_NAME = "Undetermined Store Name";
+    public static final String UNSCHEDULED_STORE_NAME = "Unscheduled Store Name";
 
     // Parse strings to LocalTime for proper time comparison
     public static final LocalTime OPENING_TIME = LocalTime.parse(MAPPING_OPENING_TIME);
