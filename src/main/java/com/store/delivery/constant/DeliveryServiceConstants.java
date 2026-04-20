@@ -5,9 +5,9 @@ import java.time.format.DateTimeFormatter;
 
 public class DeliveryServiceConstants {
 
-    public static final String CHENNAI_STORE_NAME = "Chennai Moore Market Central Book Store";
-    public static final String DELHI_STORE_NAME = "Delhi Khan Market Book Store";
-    public static final String HYDERABAD_STORE_NAME = "Hyderabad Ameerpet Market Book Store";
+    public static final String MANCHESTER_STORE_NAME = "Manchester White Rose Store";
+    public static final String LONDON_STORE_NAME = "London Kevin's Mart";
+    public static final String CAMBRIDGE_STORE_NAME = "Cambridge Bloomsbury Store";
     public static final String MAPPING_OPENING_TIME = "08:00:00";
     public static final String MAPPING_CLOSING_TIME = "18:00:00";
     public static final String DATE_TIME_FORMATTER = "HH:mm:ss";
