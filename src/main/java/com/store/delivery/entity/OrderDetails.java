@@ -16,8 +16,8 @@ public class OrderDetails{
     @JsonProperty("order_id")
     private int orderId;
 
-    @JsonProperty("book_name")
-    private String bookName;
+    @JsonProperty("product_name")
+    private String productName;
 
     @JsonProperty("delivery_city")
     private String deliveryCity;
