@@ -31,9 +31,6 @@ public class OrderDetails{
     @JsonProperty("order_timestamp")
     private String orderTimestamp;
 
-    @JsonProperty("delivery_store_name")
-    private String deliveryStoreName;
-
     @JsonProperty("delivery_postal_Code")
     private String deliveryPostalCode;
 
@@ -42,5 +39,8 @@ public class OrderDetails{
 
     @JsonProperty("vehicle_type")
     private String vehicleType;
+
+    @JsonProperty("delivery_store_name")
+    private String deliveryStoreName;
 
 }
