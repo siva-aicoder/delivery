@@ -9,7 +9,7 @@
       "delivery_store_name": "Manchester SM",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 2,
@@ -21,7 +21,7 @@
       "delivery_store_name": "Manchester EX",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 3,
@@ -33,7 +33,7 @@
       "delivery_store_name": "Manchester SM",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 4,
@@ -45,7 +45,7 @@
       "delivery_store_name": "Manchester EX",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 5,
@@ -57,7 +57,7 @@
       "delivery_store_name": "Manchester SM",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 6,
@@ -69,7 +69,7 @@
       "delivery_store_name": "Manchester SM",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 7,
@@ -81,7 +81,7 @@
       "delivery_store_name": "Manchester EX",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 8,
@@ -93,7 +93,7 @@
       "delivery_store_name": "Manchester SM",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 9,
@@ -105,7 +105,7 @@
       "delivery_store_name": "Manchester EX",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 10,
@@ -117,7 +117,7 @@
       "delivery_store_name": "Manchester EX",
 	  "delivery_postal_Code": "123",
 	  "trip_distance": "21",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 11,
@@ -129,7 +129,7 @@
       "delivery_store_name": "London SM",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 12,
@@ -141,7 +141,7 @@
       "delivery_store_name": "London EX",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 13,
@@ -153,7 +153,7 @@
       "delivery_store_name": "London EX",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 14,
@@ -165,7 +165,7 @@
       "delivery_store_name": "London EX",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 15,
@@ -177,7 +177,7 @@
       "delivery_store_name": "London SM",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 16,
@@ -189,7 +189,7 @@
       "delivery_store_name": "London SM",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 17,
@@ -201,7 +201,7 @@
       "delivery_store_name": "London EX",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 18,
@@ -213,7 +213,7 @@
       "delivery_store_name": "London SM",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 19,
@@ -225,7 +225,7 @@
       "delivery_store_name": "London EX",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 20,
@@ -237,7 +237,7 @@
       "delivery_store_name": "London SM",
 	  "delivery_postal_Code": "324",
 	  "trip_distance": "27",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 21,
@@ -249,7 +249,7 @@
       "delivery_store_name": "Cambridge EX",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 22,
@@ -261,7 +261,7 @@
       "delivery_store_name": "Cambridge SM",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 23,
@@ -273,7 +273,7 @@
       "delivery_store_name": "Cambridge EX",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 24,
@@ -285,7 +285,7 @@
       "delivery_store_name": "Cambridge SM",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     },
     {
       "order_id": 25,
@@ -297,7 +297,7 @@
       "delivery_store_name": "Cambridge EX",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Large Vehicle"
+	  "vehicle_type": "Large Vehicle"
     },
     {
       "order_id": 26,
@@ -309,7 +309,7 @@
       "delivery_store_name": "Cambridge SM",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 27,
@@ -321,7 +321,7 @@
       "delivery_store_name": "Cambridge EX",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 28,
@@ -333,7 +333,7 @@
       "delivery_store_name": "Cambridge SM",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 29,
@@ -345,7 +345,7 @@
       "delivery_store_name": "Cambridge EX",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Electric Van"
+	  "vehicle_type": "Electric Van"
     },
     {
       "order_id": 30,
@@ -357,6 +357,7 @@
       "delivery_store_name": "Cambridge SM",
 	  "delivery_postal_Code": "453",
 	  "trip_distance": "33",
-	  "vehicle_type: "Multi-Temperature Control"
+	  "vehicle_type": "Multi-Temperature Control"
     }
 ]
+ 
