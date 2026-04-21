@@ -19,6 +19,12 @@ public class OrderDetails{
     @JsonProperty("product_name")
     private String productName;
 
+    @JsonProperty("product_category")
+    private String productCategory;
+    
+    @JsonProperty("product_weight")
+    private String productWeight;
+
     @JsonProperty("delivery_city")
     private String deliveryCity;
 
@@ -27,5 +33,14 @@ public class OrderDetails{
 
     @JsonProperty("delivery_store_name")
     private String deliveryStoreName;
+
+    @JsonProperty("delivery_postal_Code")
+    private String deliveryPostalCode;
+
+    @JsonProperty("trip_distance")
+    private String tripDistance;
+
+    @JsonProperty("vehicle_type")
+    private String vehicleType;
 
 }
