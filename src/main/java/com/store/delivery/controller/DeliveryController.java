@@ -32,7 +32,7 @@ public class DeliveryController {
 
         List<OrderDetails> deliveryMappedOrders = orderDeliveryService.deliveryStoreMapping(orderDetails);
 
-        return new ResponseEntity<>(orderDetails, HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(deliveryMappedOrders, HttpStatus.ACCEPTED);
     }
 
     @GetMapping("/orderDeliveryMapping/unscheduledStore")
@@ -40,7 +40,7 @@ public class DeliveryController {
 
         List<OrderDetails> deliveryMappedOrders = orderDeliveryService.deliveryUnscheduledStoreMapping(orderDetails);
 
-        return new ResponseEntity<>(orderDetails, HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(deliveryMappedOrders, HttpStatus.ACCEPTED);
     }
 
 }
