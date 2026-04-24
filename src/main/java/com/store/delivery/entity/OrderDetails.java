@@ -19,11 +19,26 @@ public class OrderDetails{
     @JsonProperty("product_name")
     private String productName;
 
+    @JsonProperty("product_category")
+    private String productCategory;
+    
+    @JsonProperty("product_weight")
+    private String productWeight;
+
     @JsonProperty("delivery_city")
     private String deliveryCity;
 
     @JsonProperty("order_timestamp")
     private String orderTimestamp;
+
+    @JsonProperty("delivery_postal_Code")
+    private String deliveryPostalCode;
+
+    @JsonProperty("trip_distance")
+    private String tripDistance;
+
+    @JsonProperty("vehicle_type")
+    private String vehicleType;
 
     @JsonProperty("delivery_store_name")
     private String deliveryStoreName;
