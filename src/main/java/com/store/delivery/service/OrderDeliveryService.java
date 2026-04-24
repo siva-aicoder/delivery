@@ -13,27 +13,11 @@ public class OrderDeliveryService {
     public List<OrderDetails> deliveryStoreMapping(List<OrderDetails> orderDetails){
 
         orderDetails.forEach(order ->{
-            LocalTime orderTime = LocalTime.parse(
-                    order.getOrderTimestamp(),
-                    DeliveryServiceConstants.TIME_FORMATTER
-            );
-
-            boolean isWithinHours = orderTime.isAfter(DeliveryServiceConstants.OPENING_TIME) &&
-                    orderTime.isBefore(DeliveryServiceConstants.CLOSING_TIME);
-
-            if(isWithinHours){
-                 if(order.getDeliveryCity().equals("Manchester")){
-                    order.setDeliveryStoreName(DeliveryServiceConstants.MANCHESTER_STORE_NAME);
-                }else if(order.getDeliveryCity().equals("London")){
-                    order.setDeliveryStoreName(DeliveryServiceConstants.LONDON_STORE_NAME);
-                }else if(order.getDeliveryCity().equals("Cambridge")){
-                    order.setDeliveryStoreName(DeliveryServiceConstants.CAMBRIDGE_STORE_NAME);
-                }
-            }else{
+            if(isWithinOperatingHours(order.getOrderTimestamp())){
+                assignDeliveryStoreName(order);
+            } else {
                 order.setDeliveryStoreName(DeliveryServiceConstants.UNSCHEDULED_STORE_NAME);
             }
-
-
         });
 
         return orderDetails;
@@ -42,12 +26,30 @@ public class OrderDeliveryService {
 
     public List<OrderDetails> deliveryUnscheduledStoreMapping(List<OrderDetails> orderDetails){
         orderDetails.forEach(order ->{
-            if(order.getDeliveryStoreName().equals(DeliveryServiceConstants.UNSCHEDULED_STORE_NAME)){
-                order.setDeliveryStoreName(DeliveryServiceConstants.MANCHESTER_STORE_NAME);
-            }
+            assignDeliveryStoreName(order);
         });
 
         return orderDetails;
+    }
+
+    private boolean isWithinOperatingHours(String orderTimestamp) {
+        LocalTime orderTime = LocalTime.parse(
+                orderTimestamp,
+                DeliveryServiceConstants.TIME_FORMATTER
+        );
+
+        return !orderTime.isBefore(DeliveryServiceConstants.OPENING_TIME) &&
+                !orderTime.isAfter(DeliveryServiceConstants.CLOSING_TIME);
+    }
+
+    private void assignDeliveryStoreName(OrderDetails order) {
+        if ("Manchester".equals(order.getDeliveryCity())) {
+            order.setDeliveryStoreName(DeliveryServiceConstants.MANCHESTER_STORE_NAME);
+        } else if ("London".equals(order.getDeliveryCity())) {
+            order.setDeliveryStoreName(DeliveryServiceConstants.LONDON_STORE_NAME);
+        } else if ("Cambridge".equals(order.getDeliveryCity())) {
+            order.setDeliveryStoreName(DeliveryServiceConstants.CAMBRIDGE_STORE_NAME);
+        }
     }
 
 }
